@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>sts_virtual_interfaces</name>
+    <version>1.0.0</version>
+    <description>Sts Implementation of virtual inherited interfaces used by all client nodes </description>
+    <author>Nick Fiege, Sebastian Mueller, Robert Rudolph</author>
+    <maintainer email="nick.fiege@streetscooter.com">Nick Fiege</maintainer>
+    <maintainer email="sebastian.mueller2@streetscooter.com">Sebastian Mueller</maintainer>
+    <license>MIT</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <exec_depend>sts_behavior_tree_interface</exec_depend>
+    <exec_depend>sts_health_monitor_interface</exec_depend>
+    <exec_depend>sts_virtual_interface_msgs</exec_depend>
+
+
+    <export>
+        <metapackage/>
+    </export>
+
+</package>
